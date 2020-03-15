@@ -4,90 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+<style>
+    body{
+    background color
+    };
+</style>
 <body>
     <hr>
-    <a href="index.html">Home</a>|
-    <a href="contact.html">contact</a>
-
-
+    <br>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="gallery.html"> Gallery|</a>
+    <a href="blog.html">Blog</a>
+    <br>
+    <br>
     <hr>
-    <h2>top skill</h2>
-    <table>
-        <table cellspacing="12">
-            <tr>
-                <td>
-                    <img src="asset/image/IMG_20191220_092524.jpg" alt="">
-                </td>
-                <td>
-                    <h2> Debisa Abebe</h2>
-                    <h3>Software student </h3>
-                    <p>my name is debisa ,am a web developer and <strong>graphic designer </strong> Think about the
-                        cartoon above. What does
-                        it tell you about the internet? You can
-                        type almost anything in a web search engine and retrieve information; it is easy and
-                        fast and accessible 24/7.</p>
-                </td>
-            </tr>>
-        </table>
-        <hr>
-        <form action="action_page.php" method="post">
-        <div class="imgcontainer">
-            <img src="img_avatar2.png" alt="Avatar" class="avatar">
-        </div>
-        
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-        
-            <button type="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-        </div>
-        
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-    </form>
+    <br>
+    <br>
+    <img src="./assets/images/mypic.jpg" width="250px" height="250px"> 
+    <h2> Debisa Abebe</h2>
+    <p>My name is Debisa Abebe. I am a beginner web developer.am interested on graphic art ,now am learing in AAIT </p>
+<div id="clear"></div>"
+    <p>My name is Debisa Abebe. I am a beginner web developer.am interested on graphic art ,now am learing in AAIT </p>
+    <p>My name is Debisa Abebe. I am a beginner web developer.am interested on graphic art ,now am learing in AAIT </p>
 
-<!-- <h3> contact us ..</h3>
-<form method="POST" action="mailto:sanegn@gmail.com" enctype="utf-8">
-  <div <label for="fName">first name</label> <input type="text" id="fName" name="fname">
-   <br>
-  </div>
-   &nbsp;<div
-   <label for="sname">lastname</label><input type="textl" id="lname" name="lname">
-   <br>
-   &nbsp;
-   <label for="email">email</label><input type="email" id="email" email="email">
-   where are you from:
-   <select name="country" id="">
-       <option value="af" >Africa </option>
-        <option value="as" >Asia </option>
-        <option  value="eu">europe </option>
+<h3> contact us ..</h3>
+<table>
+    <tr>
+        <td>
+        <!-- <td> <label for="map">I live here:</label> </td> -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
+    </td>
+        <td><form method='get' action="http://www.google.com/search" enctype="utf-8">
+            <table cellspacing='10'>
+                <tr>
+                    <td><label for="fName">First Name: </label></td>
+                    <td><input type='text' placeholder="First Name" name="fName" id="fName" pattern="[A-Za-z]{2,50}"></td>
+                </tr>
+                <tr>
+                    <td><label for="sName">Sur Name:</label></td>
+                    <td><input type="text" placeholder="Sur Name" name="sName" id="sName" pattern="[A-Za-z]{2,50}"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" placeholder="email" name='email' id='email'></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" name="age" min="18" max="64"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No:</label></td>
+                    <td><input type="tel" placeholder="+251" name='tel' pattern="0-9{10}"></td>
+                </tr>
+                <tr>
+                    <td><label for="country:">Country:</label></td>
+                    <td>
+                        <select name="country" id="">
+                            <option value="et">Ethiopia</option>
+                            <option value="er">Eritrea</option>
+                            <option value="eg">Egypt</option>
+                            <option value="su">Sudan</option>
+                            <option value="kn">Kenya</option>
+                            <option value="dj">Djbouti</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+        
+                    <td><label for="opinion">What do you say?</label></td>
+                    <td><textarea name="comment" id="" cols="30" rows="10" maxlength="300"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="website">If you have a website(optional):</label></td>
+                    <td><input type="url" name="url"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">From when you want me to start the job?</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>What do you want to search?</td>
+                    <td><input type="search" name='q' placeholder="This will be googled."></td>
+                </tr>
+                <tr>
+                    <td><input type='submit' value='Submit'></td>
+        
+                </tr>
+        
+            </table>
+        </form></td>
+       
+    </tr>
+</table>
 
-   </div> -->
-   </select>
-   <br>
-   what do u want
 
-<input type="submit" value=submit>
-   <!-- <textarea>
-       your information
-   </textarea> -->
-</form>
+
+
+<br><br>
 <hr>
-<p>develop by sa </p>
+    <a href="http:/www.facebook.com" target="_blank"><img src="./assets/images/circle-cropped (1).png" alt="facebook logo" height='30px' width='30px'></a> |
+    <a href="http:/www.t.me/debiman" target="_blank"><img src="./assets/images/t_logo.png" alt="telegram logo" height='30px' width='30px'></a>
+    <hr>
 
-
-<a href="http://www.facebook.com">facebook</a>
-<a href="http://www.telegram.com">telegram</a>
-<a href="http://www.youtube.com">youtube</a>
+<br>
+<center><strong><p>Developed by Debisa Abebe/SA &copy;March,2020</p></strong></center>    
+    <hr>
 
 </body>
 
