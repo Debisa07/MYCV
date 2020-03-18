@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="stylesheet" href="./assets/css/contact.css">
-
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <title>question3</title>
 </head>
-<style>
-    body{
-    background color
-    };
-</style>
+
 <body>
-    <hr>
-    <br>
-    <a href="index.html">Home</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="gallery.html"> Gallery|</a>
-    <a href="blog.html">Blog</a>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"></label>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html"></a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mywork.html">Mywork</a></li>
+            <li><a href="question i.html">Qus_I</a></li>
+            <li><a href="question ii.html">Qus_II</a></li>
+            <li><a href="question iii.html">Qus_III</a></li>
+
+
+        </ul>
+    </nav>
     <img src="./assets/images/mypic.jpg" width="250px" height="250px"> 
     <h2> Debisa Abebe</h2>
     <p>My name is Debisa Abebe. I am a beginner web developer.am interested on graphic art ,now am learing in AAIT </p>
@@ -32,142 +35,87 @@
     <p>My name is Debisa Abebe. I am a beginner web developer.am interested on graphic art ,now am learing in AAIT </p>
 
 <h3> contact us ..</h3>
-<table>
-    <tr>
-        <td>
-        <!-- <td> <label for="map">I live here:</label> </td> -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set"
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-    </td>
-        <!-- <td><form method='get' action="http://www.google.com/search" enctype="utf-8">
-            <table cellspacing='10'>
-                <tr>
-                    <td><label for="fName">First Name: </label></td>
-                    <td><input type='text' placeholder="First Name" name="fName" id="fName" pattern="[A-Za-z]{2,50}"></td>
-                </tr>
-                <tr>
-                    <td><label for="sName">Sur Name:</label></td>
-                    <td><input type="text" placeholder="Sur Name" name="sName" id="sName" pattern="[A-Za-z]{2,50}"></td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email:</label></td>
-                    <td><input type="email" placeholder="email" name='email' id='email'></td>
-                </tr>
-                <tr>
-                    <td><label for="age">Age:</label></td>
-                    <td><input type="number" name="age" min="18" max="64"></td>
-                </tr>
-                <tr>
-                    <td><label for="phone">Phone No:</label></td>
-                    <td><input type="tel" placeholder="+251" name='tel' pattern="0-9{10}"></td>
-                </tr>
-                <tr>
-                    <td><label for="country:">Country:</label></td>
-                    <td>
-                        <select name="country" id="">
-                            <option value="et">Ethiopia</option>
-                            <option value="er">Eritrea</option>
-                            <option value="eg">Egypt</option>
-                            <option value="su">Sudan</option>
-                            <option value="kn">Kenya</option>
-                            <option value="dj">Djbouti</option>
-                        </select>
-                    </td>
-                </tr> -->
-                <div class="wrapper">
-                    <div class="title">
-                        Registration Form
-                    </div>
-                    <div class="form">
-                        <div class="inputfield">
-                            <label>First Name</label>
-                            <input type='text' class="input" placeholder="First Name" name="FirstName" id="FirstName"
-                                pattern="[A-Za-z]{2,50}">
-                        </div>
-                        <div class="inputfield">
-                            <label>Last Name</label>
-                            <input type='text' class="input" placeholder="Last Name" name="LastName" id="LastName"
-                                pattern="[A-Za-z]{2,50}">
-                        </div>
-                        <div class="inputfield">
-                            <label>Email Address</label>
-                            <input type="text" class="input">
-                        </div>
-                        <div class="inputfield">
-                            <label>Password</label>
-                            <input type="password" class="input">
-                        </div>
-                        <div class="inputfield">
-                            <label>Confirm Password</label>
-                            <input type="password" class="input">
-                
-                        </div>
-                        <div class="inputfield">
-                            <label>Phone Number</label>
-                            <input type="text" class="input">
-                        </div>
-                        <div class="inputfield">
-                            <label>Gender</label>
-                            <div class="custom_select">
-                                <select>
-                                    <option value="">Select</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
-                                </select>
-                            </div>
-                        </div>
-                
-                
-                        <div class="inputfield">
-                            <label>Address</label>
-                            <textarea class="textarea"></textarea>
-                        </div>
-                        <div class="inputfield">
-                            <label>Postal Code</label>
-                            <input type="text" class="input">
-                        </div>
-                        <div class="inputfield terms">
-                            <label class="check">
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                            <p>Agreed to terms and conditions</p>
-                        </div>
-                        <div class="inputfield">
-                            <input type="submit" value="submit" class="btn">
-                        </div>
-                    </div>
+<div class="Container">
+<div class="wrapper">
+    <div class="title">
+        Registration Form
+    </div>
+    <div class="form">
+        <div class="inputfield">
+            <label>First Name</label>
+            <input type='text' class="input" placeholder="First Name" name="FirstName" id="FirstName"
+                pattern="[A-Za-z]{2,50}">
+        </div>
+        <div class="inputfield">
+            <label>Last Name</label>
+            <input type='text' class="input" placeholder="Last Name" name="LastName" id="LastName"
+                pattern="[A-Za-z]{2,50}">
+        </div>
+            <div class="inputfield">
+                <label>Email Address</label>
+                <input type="text" class="input" placeholder="email">
+            </div>
+            <div class="inputfield">
+                <label>Password</label>
+                <input type="password" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Confirm Password</label>
+                <input type="password" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Phone Number</label>
+                <input type="tel" class="input" placeholder="+251" name='tel' pattern="0-9{10}">
+            </div>
+            <div class="inputfield">
+                <label>Age</label>
+                <input type="number" class="input" placeholder="Age" min="18" max="70">
+            </div>
+            <div class="inputfield">
+                <label>Gender</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
                 </div>
-                <tr>
-        
-                    <td><label for="opinion">What do you say?</label></td>
-                    <td><textarea name="comment" id="" cols="30" rows="10" maxlength="300"></textarea></td>
-                </tr>
-                <tr>
-                    <td><label for="website">If you have a website(optional):</label></td>
-                    <td><input type="url" name="url"></td>
-                </tr>
-                <tr>
-                    <td><label for="date">From when you want me to start the job?</label></td>
-                    <td><input type="date"></td>
-                </tr>
-                <tr>
-                    <td>What do you want to search?</td>
-                    <td><input type="search" name='q' placeholder="This will be googled."></td>
-                </tr>
-                <tr>
-                    <td><input type='submit' value='Submit'></td>
-        
-                </tr>
-        
-            </table>
-        </form></td>
-       
-    </tr>
-</table>
+            </div>
+            <div class="inputfield">
+                <label>City</label>
+                <div class="City_select">
+                    <select>
+                        <option value="">Addis Abebea</option>
+                        <option value="male">Adama</option>
+                        <option value="female">Mekele</option>
+                        <option value="female">Hawassa</option>
+                        <option value="female">Gonder</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputfield">
+                <label>What do you want ?</label>
+                <textarea class="textarea"></textarea>
+            </div>
+            <div class="inputfield terms">
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Agreed to Privacy Policy</p>
+            </div>
+            <div class="inputfield">
+                <input type="submit" value="submit" class="btn">
+            </div>
+        </div>
 
-
+    </div>
+<div class="map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+</div>
 
 
 <br><br>
@@ -177,7 +125,7 @@
     <hr>
 
 <br>
-<center><strong><p>Developed by Debisa Abebe/SA &copy;March,2020</p></strong></center>    
+<center><strong><p>Developed by Debisa Abebe/SA &copy;March,2020</p></strong></center>
     <hr>
 
 </body>
