@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: #bdc3c7;
+margin-left: auto;
+    /* padding-top: 70px; */
+}
+h1{
+    color:#9b59b6
+}
+h2{
+    color: orange;
+}
+ul>li{
+    color:#000063;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border-color: red;
+   /*Make all inputs have a 3px red border*/   
+}
+.hello{
+    background-color: white;
+}
+
+#special{
+    
+    border: solid #000063;
+}
+
+div>p{
+    font-size: 25px;
+}
+
+input[type=text]{
+    background-color: gray;
+}
+div p:only-child {
+    background-color: pink;
+ }
+ 

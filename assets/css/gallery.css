@@ -1,0 +1,19 @@
+.ref{
+    text-align: center;
+  }
+ 
+  h3{
+      font-size: 25px;
+      text-transform: uppercase;
+
+  }
+  #body{
+      margin: 10/6%;
+  }
+  img{
+      float: left;
+      width: 30%;
+      height: 400px;
+      margin: 1.666%;
+      
+  }
