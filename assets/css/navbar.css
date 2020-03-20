@@ -5,41 +5,65 @@
   list-style: none;
   box-sizing: border-box;
 } */
+
+*{
+  text-decoration: none;
+}
 body{
   font-family: montserrat;
   background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700345499.jpg);
 }
-nav{
+/* nav{
   background: #747d8181;
   height: 80px;
   width: 100%;
-}
+} */
 label.logo{
   color: white;
   font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
   font-weight: bold;
 }
-nav ul{
+/* nav ul{
   float: right;
   margin-right: 20px;
+} */
+nav{
+  padding: 10px;
+  background-color: rgba(32, 32, 32, 0.5);
 }
 nav ul li{
+  list-style-type: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+nav .nav-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+} */
+nav ul li {
+  margin-right: 5px;
 }
 nav ul li a{
-  color: white;
+  color: rgb(41, 39, 39);
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
 a.active,a:hover{
-  background: #6870754d;
+  background: #303030e8;
   transition: .2s;
+  color: rgb(187, 187, 187);
 }
 .checkbtn{
   font-size: 30px;
@@ -53,7 +77,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 952px){
+/* @media (max-width: 952px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -61,8 +85,8 @@ a.active,a:hover{
   nav ul li a{
     font-size: 16px;
   }
-}
-@media (max-width: 858px){
+} */
+/* @media (max-width: 858px){
   .checkbtn{
     display: block;
   }
@@ -91,7 +115,7 @@ a.active,a:hover{
   #check:checked ~ ul{
     left: 0;
   }
-}
+} */
 section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
@@ -105,6 +129,21 @@ section{
 .procontainer{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+
+}
+
+
+.proimage img{
+  margin-right: 20px;
+ 
+}
+.protext h2{
+
+}
+.protext p{
+  position: relative;
 
 }
 .mawork{
@@ -122,12 +161,81 @@ section{
 }
 .mawork ul{
   position: center;
+  background-color: #2c3e509f;
 }
+
 .mawork  :hover{ 
-  background: #6870752d;
+  background: #1c232756;
   transition: .2s;
 
 }
 .mawork h3{
   color: black;
+  font-size: large;
+  font-style: normal;
+}
+
+.blogtxt>div{
+  background-color: #2c3e5044;
+  border-color: black;
+}
+
+.qus{
+  padding: 10px 20px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 10px;
+}
+.blogt1{
+margin-top: 100px;
+}
+.blogt1 h2{
+
+  color:black;
+  background-color: #2c3e50bd;
+}
+.blogt2 h2{
+
+  color:black;
+  background-color: #2c3e50bd;
+}
+
+.copyright{
+  list-style-position: outside;
+}
+
+@media (max-width:560px){
+  nav .nav-elements{
+    flex-direction: column;
+  }
+  nav .nav-elements li{
+    padding: 10px;
+  }
+}
+
+@media (max-width:700px) {
+  .procontainer {
+    display: block;
+  }
+
+  .proimage{
+    display: flex;
+    justify-content: center;
+  }
+}
+h2 {
+  padding-left: 30px;
+}
+
+.experience{
+  display: grid;
+  max-width: 250px;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.blog-body p{
+  padding: 50px;
+}
+
+.blog{
+margin: 20px 75px;
 }

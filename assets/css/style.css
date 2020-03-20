@@ -1,4 +1,4 @@
-/* tic toc toe */
+ /* <p>Developed by Debisa Abebe/SA &copy;March,2020</p> */
   .outside {
     min-height: 100vh;
     display: flex;
@@ -9,13 +9,13 @@
   }
   .inside {
     display: grid;
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     grid-template-columns: auto auto auto;
   }
   .tictac {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     font-size: 3rem;
     font-weight: bold;
     border: 3px solid black;
@@ -23,7 +23,6 @@
     justify-content: center;
     display: flex;
   }
-  
 #tictop1,
 #tictop2,
 #tictop3 {
@@ -46,4 +45,261 @@
 #ticmiddle3,
 #ticbottom3 {
   border-right: none;
+}
+ /* <p>Developed by Debisa Abebe/SA &copy;March,2020</p> */
+
+.flag {
+    background-color: #5971b4;
+    height: 180px;
+  width: 270px;
+    float: left;
+    margin: 2px;
+}
+
+
+.spain{
+    height: 90px;
+    background: yellow;
+    border-top: 45px solid red;
+    border-bottom: 45px solid red;
+}
+
+
+.belgium{
+    width: 90px;
+    background: yellow;
+    border-left: 90px solid #333;
+    border-right: 90px solid red;
+}
+
+
+.india{
+    width: 268px;
+    height: 60px;
+    background: white;
+    border-top: 60px solid rgb(221, 163, 76);
+    border-bottom: 60px solid green;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+
+.italy{
+    width: 90px;
+    height:178px;
+    background: white;
+    border-left: 90px solid green;
+    border-right: 90px solid red;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+.zumba{
+    width: 90px;
+    height:178px;
+    background: white;
+    border-left: 90px solid green;
+    border-right: 90px solid red;
+    border-bottom: 1px solid rgb(29, 13, 99);
+    border-top: 1px solid gainsboro;
+}
+.alaba{
+    width: 268px;
+    height: 60px;
+    background :white;
+    border-top: 60px solid red;
+    border-bottom: 60px solid black;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.alabaa{
+    width: 268px;
+    height: 60px;
+    background :white;
+    border-top: 60px solid blue;
+    border-bottom: 60px solid black;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+.chad{
+    width: 90px;
+    height:178px;
+    background: red;
+    border-left: 90px solid rgb(9, 8, 66);
+    border-right: 90px solid yellow;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+.ethiopia{
+    width: 268px;
+    height: 60px;
+    background : yellow;
+    border-top: 60px solid green;
+    border-bottom: 60px solid red;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+.Nezerland{
+    width: 268px;
+    height: 60px;
+    background: rgb(26, 17, 102);
+    border-top: 60px solid red;
+    border-bottom: 60px solid white;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+
+.greece{
+    border: 1px solid gainsboro;
+}
+.greece>div:nth-child(1)>div{
+  float: left;
+}
+.greece>div:nth-child(1)>{
+  height: 100px;
+  margin: 0;
+  width: 100px;
+}
+.greece>div:nth-child(1)>div:nth-child(1){
+    height: 40px;
+    width: 40px;
+    background-color: #3bb7e7;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    float:left;
+}
+.greece>div:nth-child(1)>div:nth-child(2){
+    height: 41px;
+    width: 40px;
+    background-color: #3bb7e7;
+    border-left: 10px solid white;
+    border-bottom: 9px solid white;
+    float:left;
+}
+.greece>div:nth-child(1)>div:nth-child(3){
+    height: 40px;
+    width: 40px;
+    background-color: #3bb7e7;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    clear:left;
+}
+.greece>div:nth-child(1)>div:nth-child(4){
+    height: 40px;
+    width: 40px;
+    background-color: #3bb7e7;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    float:left;
+}
+.greece>div:nth-child(2){
+  height :20px;
+  width: 171px;
+    margin-left: 99.5px;
+    background-color: white;
+  border-bottom: 20px solid #3bb7e7;
+  border-top: 20px solid #3bb7e7;
+}
+.greece>div:nth-child(3){
+  height :20px;
+    width: 171px;
+    margin-left: 99.5px;
+  background-color: white;
+  border-bottom: 20px solid #3bb7e7;
+}
+.greece>div:nth-child(4){
+  height :20px;
+    width: 270.5px;
+  background-color: white;
+  border-bottom: 20px solid #3bb7e7;
+}
+.greece>div:nth-child(5){
+  height :20px;
+    width: 270.5px;
+  background-color: white;
+  border-bottom: 20px solid #3bb7e7;
+}
+
+
+.denmark>div:nth-child(1){
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    float:left;
+}
+.denmark>div:nth-child(2){
+    height: 80px;
+    width: 170px;
+    background-color: red;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+    float:left;
+}
+.denmark>div:nth-child(3){
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    float:left;
+}
+.denmark>div:nth-child(4){
+    height: 80px;
+    width: 170px;
+    background-color: red;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    float:left;
+}
+
+ /* <p>Developed by Debisa Abebe/SA &copy;March,2020</p> */
+
+ .Japan{
+   position: relative;
+ }
+ .Japan>div:nth-child(1){
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+ .Japan>div:nth-child(2){
+    height: 80px;
+    width: 80px;
+    background-color: rgb(247, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+}
+
+ .ireland>div:nth-child(1){
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    float:left;
+}
+.ireland>div:nth-child(2){
+    height: 80px;
+    width: 170px;
+    background-color: red;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+    float:left;
+}
+.ireland>div:nth-child(3){
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    float:left;
 }

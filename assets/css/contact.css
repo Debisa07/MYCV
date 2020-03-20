@@ -7,6 +7,7 @@
   padding: 30px;
   float: left;
   margin-left: 80px;
+  border-color: #757575;
 
 }
 
@@ -199,9 +200,7 @@ margin-bottom: 0;
   height: 350px;
   display: flex;
 }
-.footer.footer-content.footer-section{
-  flex: ;
-}
+
 .footer.footer-bottom{
   background: burlywood;
   color: grey;
