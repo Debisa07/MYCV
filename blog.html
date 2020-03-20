@@ -1,7 +1,6 @@
 <!-- <p>Developed by Debisa Abebe/SA &copy;March,2020</p> -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/navbar.css">
@@ -19,195 +18,126 @@
         <li><a href="gallery.html"><strong>Gallery</strong></a></li>
         <li><a href="mywork.html"><strong>My_Work</strong></a></li>
         <li><a class="active" href="blog.html"><strong>Blog</strong></a></li>
-
     </ul>
 </nav>
 <body class="blog-body">
 <div class="blogtxt" id="blogpp">
     <div class="blog blogt1">
-    <br>
+        <br>
+        <h2>What is EM?</h2>
+        <br>
+        <p>
+            An EM is a unit of typography, equal to the currently specified point-sizev.
+            This statement doesn’t make sense on the web since we don’t use point-size. It makes complete sense if we
+            substitutedpoint-size with font-size though. What it means is: 1em = 20px if a selector has a font-size of 20px.
+            The em unit can be used to declare font-sizes. In fact, it’s a best practice to use relative units like em for
+            font-size.</p>
+        <br>
+        <h2>What is REM?</h2>
+        <p>
+            You might have encountered the term “R.E.M.” before while listening to the radio or your music player. Unlike
+            their musical counterparts, named for the “Rapid Eye Movement” during deep sleep, in CSS rem stands for “root em”.
+            They won’tmake you lose your religion nor believe in a man on the moon. What they can do is help you achieve a harmonious
+            andbalanced design.rem means Root EM. It’s built to provide some relief the em computational problem that many
+            faced.It is a unit of typography equal to the root font-size. This means 1rem is always equal to the font-size defined
+            in Font Sizing with Rem Unitsolder versions of IE still had large market shares and they were unable to zoom text that was sized with
+            pixels. However, as we saw earlier, it is very easy to lose track of nesting and get unexpected results with em
+            units. The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an
+            example of some common font sizes expressed in rem units, assuming, of course, that the base size is 16px:
+            all we should know what we mean by rem Units. According to W3C spec the definition for one rem unit is :
+            Equal to the computed value of font-size on the root element. When specified on the font-s size property of the
+            root element,the rem units refer to the property’s initial value.This means that 1 rem equals the font size of
+            the html element(which for most browsers has a default value of 16px).
+        </p>
+        <br>
+<!-- <p>Developed by Debisa Abebe/SA &copy;March,2020</p> -->
 
-    <h2>What is EM?</h2>
-    <br>
-    <p>
-    
-    An EM is a unit of typography, equal to the currently specified point-sizev.
-This statement doesn’t make sense on the web since we don’t use point-size. It makes complete sense if we substituted
-point-size with font-size though.
-
-What it means is: 1em = 20px if a selector has a font-size of 20px.
-The em unit can be used to declare font-sizes. In fact, it’s a best practice to use relative units like em for
-font-size.</p>
-<br>
-<h2>What is REM?</h2>
-<p>
-    You might have encountered the term “R.E.M.” before while listening to the radio or your music player. Unlike their
-    musical counterparts, named for the “Rapid Eye Movement” during deep sleep, in CSS rem stands for “root em”. They won’t
-    make you lose your religion nor believe in a man on the moon. What they can do is help you achieve a harmonious and
-    balanced design.rem means Root EM. It’s built to provide some relief the em computational problem that many faced.
-    It is a unit of typography equal to the root font-size. This means 1rem is always equal to the font-size defined in
-</p><br>
-    <p>
-
-    Font Sizing with Rem Units
-    
-    older versions of IE still had large market shares and they were unable to zoom text that was sized with
-    pixels. However, as we saw earlier, it is very easy to lose track of nesting and get unexpected results with em units.
-    
-    The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an example of
-    some common font sizes expressed in rem units, assuming, of course, that the base size is 16px:
-</p>
-<p>all we should know what we mean by rem Units. According to W3C spec the definition for one rem unit is :
-Equal to the computed value of font-size on the root element. When specified on the font-s size property of the
-root element,the rem units refer to the property’s initial value.This means that 1 rem equals the font size of
-the html element(which for most browsers has a default value of 16px).
-
-</p>
-<br>
-<h2>REMs or EMs?</h2>
-<p>
-
-<strong>It’s highly debatable.</strong>  
-
-Some developers avoid rem entirely, claiming that using rem makes their components less modular. Others use rem for
-everything, preferring the simplicity that rem provides.
-
-Oddly, I fell into the trap of strictly only rem or em at different points in my development career. I loved how em
-helped me make modular components, but I loathed the complexity it brought to my code. I also loved how rem made
-calculations simple, but I hated the hacks I used to make my components modular.</p>
-
-
-</div>
-<div class="blog blogt1">
-    <br>
-
-    <h2>What is EM?</h2>
-    <br>
-    <p>
-    
-    An EM is a unit of typography, equal to the currently specified point-sizev.
-This statement doesn’t make sense on the web since we don’t use point-size. It makes complete sense if we substituted
-point-size with font-size though.
-
-What it means is: 1em = 20px if a selector has a font-size of 20px.
-The em unit can be used to declare font-sizes. In fact, it’s a best practice to use relative units like em for
-font-size.</p>
-<br>
-<h2>What is REM?</h2>
-<p>
-    You might have encountered the term “R.E.M.” before while listening to the radio or your music player. Unlike their
-    musical counterparts, named for the “Rapid Eye Movement” during deep sleep, in CSS rem stands for “root em”. They won’t
-    make you lose your religion nor believe in a man on the moon. What they can do is help you achieve a harmonious and
-    balanced design.rem means Root EM. It’s built to provide some relief the em computational problem that many faced.
-    It is a unit of typography equal to the root font-size. This means 1rem is always equal to the font-size defined in
-</p><br>
-    <p>
-
-    Font Sizing with Rem Units
-    
-    older versions of IE still had large market shares and they were unable to zoom text that was sized with
-    pixels. However, as we saw earlier, it is very easy to lose track of nesting and get unexpected results with em units.
-    
-    The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an example of
-    some common font sizes expressed in rem units, assuming, of course, that the base size is 16px:
-</p>
-<p>all we should know what we mean by rem Units. According to W3C spec the definition for one rem unit is :
-Equal to the computed value of font-size on the root element. When specified on the font-s size property of the
-root element,the rem units refer to the property’s initial value.This means that 1 rem equals the font size of
-the html element(which for most browsers has a default value of 16px).
-
-</p>
-<br>
-<h2>REMs or EMs?</h2>
-<p>
-
-<strong>It’s highly debatable.</strong>  
-
-Some developers avoid rem entirely, claiming that using rem makes their components less modular. Others use rem for
-everything, preferring the simplicity that rem provides.
-
-Oddly, I fell into the trap of strictly only rem or em at different points in my development career. I loved how em
-helped me make modular components, but I loathed the complexity it brought to my code. I also loved how rem made
-calculations simple, but I hated the hacks I used to make my components modular.</p>
-
-
-</div>
+        <h2>REMs or EMs?</h2>
+        <p>
+            <strong>It’s highly debatable.</strong>
+            Some developers avoid rem entirely, claiming that using rem makes their components less modular. Others use rem
+            for everything, preferring the simplicity that rem provides.Oddly, I fell into the trap of strictly only rem or em at different points in my development career. I loved how
+            em helped me make modular components, but I loathed the complexity it brought to my code. I also loved how rem made
+            calculations simple, but I hated the hacks I used to make my components modular.Using dimensions in % or em. Just change the base font size, and everything will change. em is a scalable unit. An em is
+            equal to the current font-size, for instance,if the font-size of the document is 12 pt, 1 em is equal to 12 pt. Ems are
+            scalable in nature, so 2 em would equal 24 pt,.5 em would equal 6 pt, etc.. Percent (%): The percent unit is much like
+            the “em” unit, save for a few fundamental differences.First and foremost, the current font-size is equal to 100% (i.e.
+            12 pt = 100%). While using the percent unit, the text remains fully scalable for mobile devices and for accessibility.
+            rem stands for root em. It's pretty much the same as em, except it will always be relative to the default font size
+            instead of the current element's font size. This can either be the default font size of the browser, usually 16px, or
+            one you can set it in your CSS I prefer to use rem for font-sizes, em for margins and paddings and absolute units for
+            borders.
+            <br>
+            I use em for nearly everything, rem occasionally for padding or margins, but only in a pinch, and px some times for
+            borders.
+            For the most part, I want children to inherit size. If a sidebar is going to be a smaller font size, then I expect all
+            its children to resize proportionally without having to calculate and redefine individual selectors.
+            I struggle to think of a good reason to use rem for font-size values, but I’m sure there are exceptions. If I’m trying
+            to reset a font size with rem, it’s probably a sign my CSS is not very modular and due for a refactor.
+        </p>
+        <h2>Default browsers width</h2>
+        <p>
+        The broser interprate this by overriding the default font size of the browser .Setting the font size in pixel values is
+        a good choice when you need pixel accuracy. A px value is static. This is an OS-independent and cross-browser way of
+        literally telling the browsers to render the letters at exactly the number of pixels in height that is specified. The
+        results may vary slightly across browsers, as they may use different algorithms to achieve a similar effect. Font sizing
+        settings can also be used in combination. For example, if a parent element is set to 16px and its child element is set
+        to 200px, the child element displays larger than the parent element in the page.
+        </p>
+    </div>
 <div class="blog blogt2">
-    <br>
-
-    <h2>What is EM?</h2>
-    <br>
-    <p>
-
-        An EM is a unit of typography, equal to the currently specified point-sizev.
-        This statement doesn’t make sense on the web since we don’t use point-size. It makes complete sense if we
-        substituted
-        point-size with font-size though.
-
-        What it means is: 1em = 20px if a selector has a font-size of 20px.
-        The em unit can be used to declare font-sizes. In fact, it’s a best practice to use relative units like em for
-        font-size.</p>
-    <br>
-    <h2>What is REM?</h2>
-    <p>
-        You might have encountered the term “R.E.M.” before while listening to the radio or your music player. Unlike
-        their
-        musical counterparts, named for the “Rapid Eye Movement” during deep sleep, in CSS rem stands for “root em”.
-        They won’t
-        make you lose your religion nor believe in a man on the moon. What they can do is help you achieve a harmonious
-        and
-        balanced design.rem means Root EM. It’s built to provide some relief the em computational problem that many
-        faced.
-        It is a unit of typography equal to the root font-size. This means 1rem is always equal to the font-size defined
-        in
-    </p><br>
-    <p>
-
-        Font Sizing with Rem Units
-
-        older versions of IE still had large market shares and they were unable to zoom text that was sized with
-        pixels. However, as we saw earlier, it is very easy to lose track of nesting and get unexpected results with em
-        units.
-
-        The main issue with using rem for font sizing is that the values are somewhat difficult to use. Let’s see an
-        example of
-        some common font sizes expressed in rem units, assuming, of course, that the base size is 16px:
-    </p>
-    <p>all we should know what we mean by rem Units. According to W3C spec the definition for one rem unit is :
-        Equal to the computed value of font-size on the root element. When specified on the font-s size property of the
-        root element,the rem units refer to the property’s initial value.This means that 1 rem equals the font size of
-        the html element(which for most browsers has a default value of 16px).
-
-    </p>
-    <br>
-    <h2>REMs or EMs?</h2>
-    <p>
-
-        <strong>It’s highly debatable.</strong>
-
-        Some developers avoid rem entirely, claiming that using rem makes their components less modular. Others use rem
-        for
-        everything, preferring the simplicity that rem provides.
-
-        Oddly, I fell into the trap of strictly only rem or em at different points in my development career. I loved how
-        em
-        helped me make modular components, but I loathed the complexity it brought to my code. I also loved how rem made
-        calculations simple, but I hated the hacks I used to make my components modular.</p>
-
+    <h3>changes in css3</h3>
+    <h2>1. CSS 3 Selectors</h2>
+    <p>In addition to the selectors that were available in CSS2, CSS 3 introduces some new selectors. Using these selectors
+        you can choose DOM elements based on their attributes. So you don't need to specify classes and IDs for every
+        element. Instead, you can utilize the attribute field to style them. if you assign IDs to elements only so you can
+        style them, you are probably doing it wrong. CSS 2.1 and CSS 3 introduced a number of powerful selectors that can
+        make your layouts cleaner, and your stylesheets more awesome..</p>
+    <h2>2. CSS 3 Rounded Corners</h2>
+    <p>Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to write a lot of
+        code. Adjusting the height, width and positioning of these elements is a never-ending chore because any change in
+        content can break them.
+        CSS 3 addresses this problem by introducing the border-radius property, which gives you the same rounded-corner
+        effect and you don't have to write all the code. Here are examples for displaying rounded corners in different
+        places of a website.</p>
+    <h2>3. CSS 3 Border Image</h2>
+    <p>Another exciting feature in CSS 3 is the ability to swap out a border with an image. The border-image property allows
+        you to display custom designed borders around elements. The borders are contained in a single image (sprite), with
+        each region of that image corresponding to a different part of the border..</p>
+    <h2>4. CSS 3 Box Shadow</h2>
+    <p>A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a repeated
+        image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS
+        code.
+        After previously removing this property from the CSS 3 Backgrounds and Borders Module, the W3C added it back in the
+        last working draft.</p>
+    <h2>5. CSS 3 Text Shadow</h2>
+    <p>The new text-shadow property allows you to add drop shadows to the text on a webpage. Prior to CSS 3, this would be
+        done by either using an image or duplicating a text element and then positioning it. A similar property called
+        box-shadow is also available in CSS 3.</p>
+    <h2>6.Media Queries</h2>
+    <p>Media queries are an absolute must if you are serious about web design. They have been around for a while, but are
+        worth a mention, because they have transformed the way we build websites. It used to be that you had a regular
+        website, wide enough to fit the smallest monitor resolution used at the time, and a separate mobile website. These
+        days, we build sites that are responsive and which adapt to the type of device, orientation and resolution.
+        Media queries are surprisingly easy to use - all you need to do is to enclose CSS styles in a block guarded by a
+        code>@media rule. Each code>@media block is activated when one or more conditions are met. As an example, try
+        resizing this page. I have also included it in the editor below; try removing the the code>@media block to see what
+        happens.</p
+</div>
+<!-- <p>Developed by Debisa Abebe/SA &copy;March,2020</p> -->
 
 </div>
-
-</div>
-
-
-
-
 <div class="copyright">
+    <h1> <strong>Reference</strong>  </h1>
+    <ul>       <li>http://webreference.com/authoring/css3/index-2.html</li>
+        <li>https://www.w3schools.com/tags/tag_em.asp</li>
+        <li>https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use</li>
+        <li>https://j.eremy.net/confused-about-rem-and-em/</li>
+</ul>
     <center><strong>
             </p>Developed by Debisa Abebe/SA &copy;March,2020</p>
         </strong></center>
 </div>
 </body>
-
 </html>
 <!-- <p>Developed by Debisa Abebe/SA &copy;March,2020</p> -->
